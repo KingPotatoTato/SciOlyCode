@@ -51,8 +51,6 @@ void setup() {
   // set the speed of the motors
   analogWrite(enRight, 130); // right motor speed
   analogWrite(enLeft, 160); // left motor speed 
-
-  
 }
 
 
@@ -62,10 +60,12 @@ void loop() {
     
       end();
   }
-  // end the program
+  // end the loop program
 
 
 }
+
+// start defining functions
 
 // function to turn left
 void turnLeft() {
@@ -119,6 +119,7 @@ void blockBack() {
   backward();
   // wait for 1300 milliseconds
   delay(1300);
+  // doesn't check sensors since no sensors on back
   tick();
 }
 
@@ -208,6 +209,7 @@ void right() {
 void end() {
   // stop the motors
   off();
+  // blink led
   for (int i = 0; i <= 1000000000; i++) {
     ledOn();
     delay(100);
