@@ -155,7 +155,7 @@ void off() {
 // Function to end the program
 void end() {
   off();
-  for (int i = 0; i <= 1000000000; i++) {
+  while (true) {
     ledOn();
     delay(100);
     ledOff();
