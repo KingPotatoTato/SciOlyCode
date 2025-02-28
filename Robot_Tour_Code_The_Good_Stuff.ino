@@ -227,17 +227,4 @@ void tick() {
 
 }
 
-// function to set the speed to low
-void lowSpeed() {
-  // TODO: implement this function
-}
-
-// function to set the speed to medium
-void medSpeed() {
-  // TODO: implement this function
-}
-
-// function to set the speed to high
-void highSpeed() {
-  // TODO: implement this function
-}
+//Might need to add speed control...
