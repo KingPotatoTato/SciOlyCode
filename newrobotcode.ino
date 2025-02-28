@@ -1,3 +1,5 @@
+//Decrepit code, **do not use**, save for archiving
+
 #include <Stepper.h>
 
 // Define the number of steps per revolution for your motor
